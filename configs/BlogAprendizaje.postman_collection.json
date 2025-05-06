@@ -1,0 +1,336 @@
+{
+	"info": {
+		"_postman_id": "70f8b207-61b0-4d68-b198-8707eed1348f",
+		"name": "BlogAprendizaje",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42000110"
+	},
+	"item": [
+		{
+			"name": "Usuario",
+			"item": [
+				{
+					"name": "Agregar usuarios",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\":\"Marco\",\r\n    \"username\":\"mbolanos\",\r\n    \"email\":\"mbolanos@email.com\",\r\n    \"password\":\"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/forchan_2/v1/usuarios",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"forchan_2",
+								"v1",
+								"usuarios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Inicio Sesion",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"mbolanos@email.com\",\r\n    \"password\":\"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/forchan_2/v1/usuarios/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"forchan_2",
+								"v1",
+								"usuarios",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar Usuario",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODE5NmE4ODk5OTk4ZTk1YTNiMDBjZmEiLCJpYXQiOjE3NDY0OTYzNjksImV4cCI6MTc0NjUzMjM2OX0.BXzX0_HF4YF5ScmGVto_U6GK--B_sOXAnB4tIICQs9s",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\":\"68196a8899998e95a3b00cfa\",\r\n    \"nombre\":\"Marquinho\",\r\n    \"username\":\"mquinho\",\r\n    \"email\":\"mquinho@email.com\",\r\n    \"password\":\"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/forchan_2/v1/usuarios/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"forchan_2",
+								"v1",
+								"usuarios",
+								"update"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Publicaciones",
+			"item": [
+				{
+					"name": "Agregar Publis",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODE5OGM0ODU4ZmMyYWIxN2MzZDAyODciLCJpYXQiOjE3NDY1MDQ4MjcsImV4cCI6MTc0NjU0MDgyN30.9C_U5svfpb-5M8mScATSGhR9JswYMOW9W6aMyIndUo0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"titulo\":\"Mi primer post\",\r\n    \"categoria\":\"solo probando ando\",\r\n    \"texto\":\"Buenas este es mi primer post\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/forchan_2/v1/publications",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"forchan_2",
+								"v1",
+								"publications"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Editar Publivaciones",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODE5NmE4ODk5OTk4ZTk1YTNiMDBjZmEiLCJpYXQiOjE3NDY0OTg5ODksImV4cCI6MTc0NjUzNDk4OX0.Gl4i5c69vIBJCHxZqHbfm03RAzFp0XSu_d3fJO3FPLA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"titulo\":\"Mi primer post\",\r\n    \"categoria\":\"solo probando ando\",\r\n    \"correo\":\"mquinho@email.com\",\r\n    \"texto\":\"Buenas ando probando el ditar los posts\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/forchan_2/v1/publications/68197b0358fc2ab17c3d021a",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"forchan_2",
+								"v1",
+								"publications",
+								"68197b0358fc2ab17c3d021a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Publicaciones",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/forchan_2/v1/publications/681975e558fc2ab17c3d0204",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"forchan_2",
+								"v1",
+								"publications",
+								"681975e558fc2ab17c3d0204"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Comentarios",
+			"item": [
+				{
+					"name": "Agregar Comentarios",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODE5OGM0ODU4ZmMyYWIxN2MzZDAyODciLCJpYXQiOjE3NDY1MDQ4MjcsImV4cCI6MTc0NjU0MDgyN30.9C_U5svfpb-5M8mScATSGhR9JswYMOW9W6aMyIndUo0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"publicacion\":\"68198caf58fc2ab17c3d0292\",\r\n    \"texto\":\"Buenas estoy comentando el post de bolaños\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/forchan_2/v1/comments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"forchan_2",
+								"v1",
+								"comments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODE5OGM0ODU4ZmMyYWIxN2MzZDAyODciLCJpYXQiOjE3NDY1MDQ4MjcsImV4cCI6MTc0NjU0MDgyN30.9C_U5svfpb-5M8mScATSGhR9JswYMOW9W6aMyIndUo0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"texto\":\"Buenas estoy comentando el post de bolaños y probando el editar\",\r\n    \"correo\":\"mbolanos@email.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/forchan_2/v1/comments/68197c5058fc2ab17c3d021f",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"forchan_2",
+								"v1",
+								"comments",
+								"68197c5058fc2ab17c3d021f"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODE5NmE4ODk5OTk4ZTk1YTNiMDBjZmEiLCJpYXQiOjE3NDY1MDI3NDgsImV4cCI6MTc0NjUzODc0OH0.ykqc0vTpx9o2wyvEtQurM2a3bkPUb2VnmH6dpMTLnI4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"correo\":\"mquinho@email.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/forchan_2/v1/comments/68197c5058fc2ab17c3d021f",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"forchan_2",
+								"v1",
+								"comments",
+								"68197c5058fc2ab17c3d021f"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
