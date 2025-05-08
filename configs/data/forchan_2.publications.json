@@ -1,0 +1,204 @@
+[{
+  "_id": {
+    "$oid": "681c347106ed1eb2b2e521f4"
+  },
+  "usuario": "mbolanos",
+  "titulo": "Laboratorio #1",
+  "categoria": "TALLER III",
+  "texto": "Recreacion de pagina de kinal",
+  "comentarios": [],
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c34cb06ed1eb2b2e521f8"
+  },
+  "usuario": "mbolanos",
+  "titulo": "Laboratorio #2",
+  "categoria": "TALLER III",
+  "texto": "Se realizo una api en el cual existen Mascotas y Usuarios, Mascotas pueden ser adoptadas por Usuarios",
+  "comentarios": [],
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c34fc06ed1eb2b2e521fc"
+  },
+  "usuario": "mbolanos",
+  "titulo": "Proyecto Final Bim. I",
+  "categoria": "TALLER III",
+  "texto": "Se realiza un programa en el cual permita Ventas Online permitiendo agregar objetos al carrito de comprar y despues comprar los productos y generando una fatura",
+  "comentarios": [],
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c355f06ed1eb2b2e52200"
+  },
+  "usuario": "mbolanos",
+  "titulo": "Ejercicios de JavaScript",
+  "categoria": "TALLER III",
+  "texto": "En hacker rank se realizaron distintos ejercicos de programacion (4 faciles, 2 medios y 2 dificiles)",
+  "comentarios": [],
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c35e506ed1eb2b2e52204"
+  },
+  "usuario": "mbolanos",
+  "titulo": "Laboratorio # 5 - Blog de aprendizaje",
+  "categoria": "TALLER III",
+  "texto": "Blog en el cual puvlicamos y se puede comentar",
+  "comentarios": [],
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c362406ed1eb2b2e52208"
+  },
+  "usuario": "mbolanos",
+  "titulo": "Proyecto Bimestral II",
+  "categoria": "TALLER III",
+  "texto": "35% del proyecto bimestral gestion hotelera",
+  "comentarios": [],
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c366106ed1eb2b2e5220c"
+  },
+  "usuario": "mbolanos",
+  "titulo": "Laboratorio PS # 1",
+  "categoria": "Practica Supervisada",
+  "texto": "Se crea una Lista de contactos y en el mismo proyecto creamos un To Do List fucnional",
+  "comentarios": [],
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c369706ed1eb2b2e52210"
+  },
+  "usuario": "mbolanos",
+  "titulo": "Laboratorio PS #2",
+  "categoria": "Practica Supervisada",
+  "texto": "Creamos un control academico en el cual cuenta con Student, Maestros y Cursos, en el cual cada Student tiene una materia y cada materia tiene un maestro",
+  "comentarios": [],
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c36c906ed1eb2b2e52214"
+  },
+  "usuario": "mbolanos",
+  "titulo": "Laboratorio PS # 3",
+  "categoria": "Practica Supervisada",
+  "texto": "Creamos un gestor de opniones en el cual se pueden hacer post y se pueden comentar los post",
+  "comentarios": [],
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c377706ed1eb2b2e52218"
+  },
+  "usuario": "mbolanos",
+  "titulo": "Exposicion Frameworks de aplicaciones híbridas",
+  "categoria": "Practica Supervisada",
+  "texto": "Realizamos un video en el cual explicamos Quasar y Expo",
+  "comentarios": [],
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c37a006ed1eb2b2e5221c"
+  },
+  "usuario": "mbolanos",
+  "titulo": "Almacenadora",
+  "categoria": "Practica Supervisada",
+  "texto": "Realizamos una almacenadora en el cual permite almacenar productos por fecha de inicio y final",
+  "comentarios": [],
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c37da06ed1eb2b2e52220"
+  },
+  "usuario": "mbolanos",
+  "titulo": "Infografia",
+  "categoria": "Tecnologia lll",
+  "texto": "Infografia sobre el Desarrollo WEB y procesadores (LESS,SASS,PUG,JADE)",
+  "comentarios": [],
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c37f506ed1eb2b2e52224"
+  },
+  "usuario": "mbolanos",
+  "titulo": "Mapa conceptual",
+  "categoria": "Tecnologia lll",
+  "texto": "Mapa conceptaul sobre las Tecnologias WEB",
+  "comentarios": [],
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c381506ed1eb2b2e52228"
+  },
+  "usuario": "mbolanos",
+  "titulo": "Mapa mental",
+  "categoria": "Tecnologia lll",
+  "texto": "Mapa mental sobre el desarrollo WEB",
+  "comentarios": [],
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c383706ed1eb2b2e5222c"
+  },
+  "usuario": "mbolanos",
+  "titulo": "Infografía: Beneficios React",
+  "categoria": "Tecnologia lll",
+  "texto": "Infografia sobre los benefecios de usar REACT",
+  "comentarios": [],
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c386506ed1eb2b2e52230"
+  },
+  "usuario": "mbolanos",
+  "titulo": "Propuesta de proyecto",
+  "categoria": "Tecnologia lll",
+  "texto": "Realizamos la propuesta del proyecto EduPlaner",
+  "comentarios": [],
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c388506ed1eb2b2e52234"
+  },
+  "usuario": "mbolanos",
+  "titulo": "Investigación",
+  "categoria": "Tecnologia lll",
+  "texto": "Realizamos la investigacion de API, Rest, RestFull, buenas prácticas de desarrollo de API’s",
+  "comentarios": [],
+  "estado": true,
+  "__v": 0
+}]
