@@ -30,14 +30,14 @@ router.post(
     router.put(
         "/:id",
         [
-            validarUsuario,
+            //validarUsuario,
             validarCampos,
         ], commentPut);
     
     router.delete(
         "/:id",
         [
-            validarUsuario,
+            //validarUsuario,
             validarCampos,
         ], commentDelete);
 
