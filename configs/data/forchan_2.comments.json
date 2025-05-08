@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "681c38d406ed1eb2b2e52260"
+  },
+  "usuario": "mbolanos",
+  "publicacion": "681c347106ed1eb2b2e521f4",
+  "texto": "quedo calidad",
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c3c1806ed1eb2b2e52279"
+  },
+  "usuario": "mbolanos",
+  "publicacion": "681c34cb06ed1eb2b2e521f8",
+  "texto": "estuvo lindo",
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c3c5306ed1eb2b2e5228c"
+  },
+  "usuario": "mbolanos",
+  "publicacion": "681c34fc06ed1eb2b2e521fc",
+  "texto": "Salio proyecto insano",
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c3c6d06ed1eb2b2e52293"
+  },
+  "usuario": "mbolanos",
+  "publicacion": "681c355f06ed1eb2b2e52200",
+  "texto": "El ultimo me costo bastante",
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c3c8006ed1eb2b2e5229a"
+  },
+  "usuario": "mbolanos",
+  "publicacion": "681c35e506ed1eb2b2e52204",
+  "texto": "pROYECTO CASI TERMIANDO",
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c3c8f06ed1eb2b2e522a1"
+  },
+  "usuario": "mbolanos",
+  "publicacion": "681c362406ed1eb2b2e52208",
+  "texto": "CON LOS DEVELOPERS",
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c3cb006ed1eb2b2e522a8"
+  },
+  "usuario": "mbolanos",
+  "publicacion": "681c366106ed1eb2b2e5220c",
+  "texto": "NO SAQUE LOS 10 ):",
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c3cbf06ed1eb2b2e522af"
+  },
+  "usuario": "mbolanos",
+  "publicacion": "681c369706ed1eb2b2e52210",
+  "texto": "SALIO EXCELENTE EL PROYECTO",
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c3cd106ed1eb2b2e522b6"
+  },
+  "usuario": "mbolanos",
+  "publicacion": "681c36c906ed1eb2b2e52214",
+  "texto": "UNO DE MIS MEJORES EN ESTE AÑO",
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c3cee06ed1eb2b2e522bd"
+  },
+  "usuario": "mbolanos",
+  "publicacion": "681c377706ed1eb2b2e52218",
+  "texto": "VIDEO 12 MINS X CIERTO",
+  "estado": true,
+  "__v": 0
+}]
