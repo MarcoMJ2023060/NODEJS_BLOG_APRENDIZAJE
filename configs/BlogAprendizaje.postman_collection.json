@@ -123,13 +123,13 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODE5OGM0ODU4ZmMyYWIxN2MzZDAyODciLCJpYXQiOjE3NDY1MDQ4MjcsImV4cCI6MTc0NjU0MDgyN30.9C_U5svfpb-5M8mScATSGhR9JswYMOW9W6aMyIndUo0",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODE5OGM0ODU4ZmMyYWIxN2MzZDAyODciLCJpYXQiOjE3NDY2Nzg4NzUsImV4cCI6MTc0NjcxNDg3NX0.ops_KGvCE6fLnhCMmXVplT3VZWev4q6gcEC1ti2QR0E",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"titulo\":\"Mi primer post\",\r\n    \"categoria\":\"solo probando ando\",\r\n    \"texto\":\"Buenas este es mi primer post\"\r\n}",
+							"raw": "{\r\n    \"titulo\":\"Investigación\",\r\n    \"categoria\":\"Tecnologia lll\",\r\n    \"texto\":\"Realizamos la investigacion de API, Rest, RestFull, buenas prácticas de desarrollo de API’s\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -227,13 +227,13 @@
 						"header": [
 							{
 								"key": "x-token",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODE5OGM0ODU4ZmMyYWIxN2MzZDAyODciLCJpYXQiOjE3NDY1MDQ4MjcsImV4cCI6MTc0NjU0MDgyN30.9C_U5svfpb-5M8mScATSGhR9JswYMOW9W6aMyIndUo0",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODE5OGM0ODU4ZmMyYWIxN2MzZDAyODciLCJpYXQiOjE3NDY2NjA0MTEsImV4cCI6MTc0NjY5NjQxMX0.LcwptwczhKVV9e59QcDFdbu-g3755SkYwTDZ-TDTUtY",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"publicacion\":\"68198caf58fc2ab17c3d0292\",\r\n    \"texto\":\"Buenas estoy comentando el post de bolaños\"\r\n}",
+							"raw": "{\r\n    \"publicacion\":\"681989c558fc2ab17c3d024d\",\r\n    \"texto\":\"Buenas estoy comentando el post y estoy sin nada que hacer\",\r\n    \"usuario\":\"mbolanos\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -257,19 +257,19 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Editar Comentario",
 					"request": {
 						"method": "PUT",
 						"header": [
 							{
 								"key": "x-token",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODE5OGM0ODU4ZmMyYWIxN2MzZDAyODciLCJpYXQiOjE3NDY1MDQ4MjcsImV4cCI6MTc0NjU0MDgyN30.9C_U5svfpb-5M8mScATSGhR9JswYMOW9W6aMyIndUo0",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODE5OGM0ODU4ZmMyYWIxN2MzZDAyODciLCJpYXQiOjE3NDY2NjA0MTEsImV4cCI6MTc0NjY5NjQxMX0.LcwptwczhKVV9e59QcDFdbu-g3755SkYwTDZ-TDTUtY",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"texto\":\"Buenas estoy comentando el post de bolaños y probando el editar\",\r\n    \"correo\":\"mbolanos@email.com\"\r\n}",
+							"raw": "{\r\n    \"texto\":\"Buenas estoy comentando el post y estoy sin nada que hacer\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -294,7 +294,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Eliminar Comentario",
 					"request": {
 						"method": "DELETE",
 						"header": [
@@ -306,7 +306,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"correo\":\"mquinho@email.com\"\r\n}",
+							"raw": "",
 							"options": {
 								"raw": {
 									"language": "json"
